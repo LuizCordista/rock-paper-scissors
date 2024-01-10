@@ -1,1 +1,1 @@
-# rock-paper-scissors
+# Jogo de pedra papel e tesoura para o The Odin Project
