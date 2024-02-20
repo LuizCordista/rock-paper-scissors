@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedra, papel e tesoura</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="start">
+            <button class="btnstart">Start</button>
+        </div>
+        <div class="game">
+            <div class="gamecenter">
+                <h2>Pedra, papel e tesoura!</h2>
+                <p class="rounds">Round: 1</p>
+                <div class="game">
+                    <div class="player">
+                        <h1>Jogador 1</h1> 
+                        <div class="options"><button class="pedra">
+                            <img src="imgs/pedra.webp" alt="" height="110px" width="115px">
+                        </button>
+                        <button class="papel">
+                            <img src="imgs/papel.webp" alt="" height="110px">
+                        </button>
+                        <button class="tesoura">
+                            <img src="imgs/tesoura.png" alt="" height="110px">
+                        </button></div>
+                        <p class="yourchoice"> Escolha sua jogada </p>
+                    </div>
+                    <p class="result"> Resultado</p>
+                    <div class="pc">
+                        <h1>Computador</h1>
+                        <div class="optionspc"><button class="pedra">
+                            <img src="imgs/pedra.webp" alt="" height="110px" width="115px">
+                        </button>
+                        <button class="papel">
+                            <img src="imgs/papel.webp" alt="" height="110px">
+                        </button>
+                        <button class="tesoura">
+                            <img src="imgs/tesoura.png" alt="" height="110px">
+                        </button></div>
+                        <p class="computerchoice"> O computador vai escolher</p>
+                    </div>
+                </div>
+                <div class="score">
+                    <p class="playerscore">0</p>
+                    <p class="pcscore">0</p>
+                </div>
+                <button class="reset">Resetar</button>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
